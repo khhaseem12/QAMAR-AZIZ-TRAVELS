@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { NAV_LINKS } from '../constants';
 import { FacebookIcon, InstagramIcon, TwitterIcon } from './icons/Icons';
@@ -19,7 +18,7 @@ const Footer = () => {
           
           {/* Agency Info */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <h3 className="text-xl font-bold text-white mb-4">Qamar Aziz Travels</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Qamar aziz travels</h3>
             <p className="text-sandy-beige/80 mb-2">Phone: (123) 456-7890</p>
             <p className="text-sandy-beige/80">Email: contact@qatravels.com</p>
           </div>
@@ -63,7 +62,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 border-t border-ocean-blue-700 pt-6 text-center text-sandy-beige/70">
-          <p>&copy; {new Date().getFullYear()} Qamar Aziz Travels. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Qamar aziz travels. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

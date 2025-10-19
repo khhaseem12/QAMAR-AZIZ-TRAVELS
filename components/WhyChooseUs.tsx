@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { VALUE_PROPOSITIONS } from '../constants';
 
@@ -8,7 +7,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-ocean-blue-900 mb-4">Why Trust Qamar Aziz Travels?</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-ocean-blue-900 mb-4">Why Trust Global Getaways?</h2>
             <p className="text-ocean-blue-700/90 mb-6">
               With over a decade of experience in crafting bespoke travel experiences, we believe in a simple philosophy: travel should be personal, seamless, and transformative. Our dedicated agents are passionate explorers themselves, bringing firsthand knowledge and meticulous attention to detail to every itinerary.
             </p>

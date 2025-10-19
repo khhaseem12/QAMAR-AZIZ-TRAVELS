@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { NAV_LINKS } from '../constants';
 import { MenuIcon, XIcon } from './icons/Icons';
@@ -30,7 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className={`text-2xl font-extrabold ${isScrolled ? 'text-white' : 'text-white'}`}>
-              Qamar Aziz Travels
+              Qamar aziz travels
             </a>
           </div>
 

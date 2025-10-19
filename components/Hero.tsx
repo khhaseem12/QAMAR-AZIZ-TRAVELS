@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { SearchIcon } from './icons/Icons';
 
@@ -51,9 +50,8 @@ const Hero = () => {
                 <option>4+ Travelers</option>
               </select>
             </div>
-            <button type="submit" className="w-full lg:col-span-1 bg-accent-gold text-ocean-blue-900 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
-              <SearchIcon className="h-5 w-5" />
-              <span>Search</span>
+            <button type="submit" className="w-full lg:col-span-1 bg-accent-gold text-ocean-blue-900 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+              Search Flights & Packages
             </button>
           </div>
         </form>
